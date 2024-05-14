@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body{
+    font-family: "Recursive";
+    height: 100vh;
+    background-color: #1B1833;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 160px;
+    padding-left: 100px;
+}
+.listaCabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-right: 20px;
+}
+.listaCabecalho a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.Home{
+    background-image: url("https://i.pinimg.com/originals/d6/c3/73/d6c373a76a2bdac22f422bfe36191bb9.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeIntro{
+    background-color: white;
+    color: #1B1833;
+    font-family: "Pacifico";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    gap: 20px;
+}
+.introTexto{
+    font-size: 24px;
+}
+.introPrincipal{
+    font-size: 36px;
+    font-family: "Rubik bubbles";
+}
+.introLink{
+    color: white;
+    background-color: #1B1833;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.Categorias{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.categoriasTitulo{
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.caixasCategorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid white;
+    gap: 20px;
+    /* min-height: 250px; */
+}
+.caixaTitulo{
+    font-size: 30px;
+}
+.caixaTexto{
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.caixaBotao{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i2.wp.com/judao.com.br/wp-content/uploads/2016/04/Marvel-Civil-War-1366x768.jpg?fit=1366%2C768&ssl=1");
+    height: 76vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sobreInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 25px;
+    border-radius: 20px;
+    gap: 25px;
+    max-width: 800px;
+}
+.sobreTitulo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sobreTexto{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: white;
+    border-top: 1px solid white;
+}
+.footerTitulo{
+    font-size: 20px;
+}
+.footerTexto{
+    font-size: 14px;
+    color: rgb(133, 128, 128);
+}
+.footerInfo{
+    font-size: 14px;
+    align-self: flex-end;
+    padding-right: 7px;
+}
